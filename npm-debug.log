@@ -1,0 +1,170 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.2.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'babel-core@6.3.13',
+1 verbose cli   'babel-loader@6.2.0',
+1 verbose cli   'babel-present-react@6.3.13',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.14.2
+3 info using node@v5.2.0
+4 verbose install initial load of /Users/aCyph3r/DevProj3cts/startingReact/package.json
+5 warn package.json startingreact@1.0.0 No description
+6 warn package.json startingreact@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /Users/aCyph3r/DevProj3cts/startingReact/node_modules/babel-preset-es2015/package.json
+8 verbose installManyTop reading scoped package data from /Users/aCyph3r/DevProj3cts/startingReact/node_modules/react/package.json
+9 verbose installManyTop reading scoped package data from /Users/aCyph3r/DevProj3cts/startingReact/node_modules/react-dom/package.json
+10 verbose readDependencies loading dependencies from /Users/aCyph3r/DevProj3cts/startingReact/package.json
+11 silly cache add args [ 'babel-core@6.3.13', null ]
+12 verbose cache add spec babel-core@6.3.13
+13 silly cache add args [ 'babel-loader@6.2.0', null ]
+14 verbose cache add spec babel-loader@6.2.0
+15 silly cache add args [ 'babel-present-react@6.3.13', null ]
+16 verbose cache add spec babel-present-react@6.3.13
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: 'babel-core@6.3.13',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'babel-core',
+17 silly cache add   rawSpec: '6.3.13',
+17 silly cache add   spec: '6.3.13',
+17 silly cache add   type: 'version' }
+18 silly addNamed babel-core@6.3.13
+19 verbose addNamed "6.3.13" is a plain semver version for babel-core
+20 silly mapToRegistry name babel-core
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+24 verbose addNameVersion registry:https://registry.npmjs.org/babel-core not in flight; fetching
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'babel-loader@6.2.0',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'babel-loader',
+25 silly cache add   rawSpec: '6.2.0',
+25 silly cache add   spec: '6.2.0',
+25 silly cache add   type: 'version' }
+26 silly addNamed babel-loader@6.2.0
+27 verbose addNamed "6.2.0" is a plain semver version for babel-loader
+28 silly mapToRegistry name babel-loader
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+32 verbose addNameVersion registry:https://registry.npmjs.org/babel-loader not in flight; fetching
+33 silly cache add parsed spec Result {
+33 silly cache add   raw: 'babel-present-react@6.3.13',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'babel-present-react',
+33 silly cache add   rawSpec: '6.3.13',
+33 silly cache add   spec: '6.3.13',
+33 silly cache add   type: 'version' }
+34 silly addNamed babel-present-react@6.3.13
+35 verbose addNamed "6.3.13" is a plain semver version for babel-present-react
+36 silly mapToRegistry name babel-present-react
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/babel-present-react
+40 verbose addNameVersion registry:https://registry.npmjs.org/babel-present-react not in flight; fetching
+41 verbose request uri https://registry.npmjs.org/babel-present-react
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 12:08:47 PM
+44 verbose request id 0259a19b2d8bd3c3
+45 http request GET https://registry.npmjs.org/babel-present-react
+46 verbose request uri https://registry.npmjs.org/babel-loader
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 12:08:47 PM
+49 verbose etag "2U4J2T9NIHQBEOXUW1D9Y4Y0U"
+50 http request GET https://registry.npmjs.org/babel-loader
+51 verbose request uri https://registry.npmjs.org/babel-core
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 12:08:47 PM
+54 verbose etag "7K75HLZTII2LAZ6RJH6J2OBU"
+55 http request GET https://registry.npmjs.org/babel-core
+56 http 304 https://registry.npmjs.org/babel-core
+57 silly get cb [ 304,
+57 silly get   { date: 'Sun, 03 Apr 2016 17:08:47 GMT',
+57 silly get     via: '1.1 varnish',
+57 silly get     'cache-control': 'max-age=300',
+57 silly get     etag: '"7K75HLZTII2LAZ6RJH6J2OBU"',
+57 silly get     age: '221',
+57 silly get     connection: 'keep-alive',
+57 silly get     'x-served-by': 'cache-dfw1822-DFW',
+57 silly get     'x-cache': 'HIT',
+57 silly get     'x-cache-hits': '3',
+57 silly get     'x-timer': 'S1459703327.985135,VS0,VE0',
+57 silly get     vary: 'Accept' } ]
+58 verbose etag https://registry.npmjs.org/babel-core from cache
+59 verbose get saving babel-core to /Users/aCyph3r/.npm/registry.npmjs.org/babel-core/.cache.json
+60 silly cache afterAdd babel-core@6.3.13
+61 verbose afterAdd /Users/aCyph3r/.npm/babel-core/6.3.13/package/package.json not in flight; writing
+62 verbose afterAdd /Users/aCyph3r/.npm/babel-core/6.3.13/package/package.json written
+63 http 304 https://registry.npmjs.org/babel-loader
+64 silly get cb [ 304,
+64 silly get   { date: 'Sun, 03 Apr 2016 17:08:47 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     etag: '"2U4J2T9NIHQBEOXUW1D9Y4Y0U"',
+64 silly get     age: '0',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-dfw1830-DFW',
+64 silly get     'x-cache': 'HIT',
+64 silly get     'x-cache-hits': '1',
+64 silly get     'x-timer': 'S1459703327.992785,VS0,VE53',
+64 silly get     vary: 'Accept' } ]
+65 verbose etag https://registry.npmjs.org/babel-loader from cache
+66 verbose get saving babel-loader to /Users/aCyph3r/.npm/registry.npmjs.org/babel-loader/.cache.json
+67 silly cache afterAdd babel-loader@6.2.0
+68 verbose afterAdd /Users/aCyph3r/.npm/babel-loader/6.2.0/package/package.json not in flight; writing
+69 verbose afterAdd /Users/aCyph3r/.npm/babel-loader/6.2.0/package/package.json written
+70 http 404 https://registry.npmjs.org/babel-present-react
+71 verbose headers { 'content-type': 'application/json',
+71 verbose headers   'cache-control': 'max-age=0',
+71 verbose headers   'content-length': '2',
+71 verbose headers   'accept-ranges': 'bytes',
+71 verbose headers   date: 'Sun, 03 Apr 2016 17:08:48 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   age: '0',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-dfw1840-DFW',
+71 verbose headers   'x-cache': 'MISS',
+71 verbose headers   'x-cache-hits': '0',
+71 verbose headers   'x-timer': 'S1459703327.993028,VS0,VE284' }
+72 silly get cb [ 404,
+72 silly get   { 'content-type': 'application/json',
+72 silly get     'cache-control': 'max-age=0',
+72 silly get     'content-length': '2',
+72 silly get     'accept-ranges': 'bytes',
+72 silly get     date: 'Sun, 03 Apr 2016 17:08:48 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     age: '0',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-dfw1840-DFW',
+72 silly get     'x-cache': 'MISS',
+72 silly get     'x-cache-hits': '0',
+72 silly get     'x-timer': 'S1459703327.993028,VS0,VE284' } ]
+73 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/babel-present-react
+73 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:263:12)
+73 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:241:14)
+73 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:171:14)
+73 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+73 verbose stack     at emitTwo (events.js:88:13)
+73 verbose stack     at Request.emit (events.js:173:7)
+73 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1073:14)
+73 verbose stack     at emitOne (events.js:83:20)
+73 verbose stack     at Request.emit (events.js:170:7)
+73 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1019:12)
+74 verbose statusCode 404
+75 verbose pkgid babel-present-react
+76 verbose cwd /Users/aCyph3r/DevProj3cts/startingReact
+77 error Darwin 15.4.0
+78 error argv "/usr/local/Cellar/node/5.2.0/bin/node" "/usr/local/bin/npm" "install" "babel-core@6.3.13" "babel-loader@6.2.0" "babel-present-react@6.3.13" "--save-dev"
+79 error node v5.2.0
+80 error npm  v2.14.2
+81 error code E404
+82 error 404 Registry returned 404 for GET on https://registry.npmjs.org/babel-present-react
+82 error 404
+82 error 404 'babel-present-react' is not in the npm registry.
+82 error 404 You should bug the author to publish it (or use the name yourself!)
+82 error 404 It was specified as a dependency of 'startingreact'
+82 error 404
+82 error 404 Note that you can also install from a
+82 error 404 tarball, folder, http url, or git url.
+83 verbose exit [ 1, true ]
